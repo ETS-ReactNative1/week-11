@@ -29,7 +29,7 @@
   <a href="#the-omnistack">The OmniStack</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
   <a href="#be-the-hero">Project</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
   <a href="#-layout">Layout</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
-  <a href="#-installation-running-locally">Installation</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="#%EF%B8%8F-installation---running-locally">Installation</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
   <a href="#-contributing">Contributing</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
   <a href="#memo-licence">Licence</a>
 </p>
@@ -74,10 +74,9 @@ and register new incidents:
 
 While the app allows users to see cases that need help:
 
-
-Mobile app dashboard       |  Incident details page
-:-------------------------:|:-------------------------:
-![Mobile app's dashboard](/readme_images/BeTheHero-AppDashboard.jpg)  |  ![Incident details page](/readme_images/BeTheHero-IncidentDetails.jpg)
+<h1 align="center">
+    <img alt="Mobile app screenshots" title="Mobile app screenshots" src="/readme_images/BeTheHero-mobile.png" width="75%" />
+</h1>
 
 ## 🔖 Layout
 
