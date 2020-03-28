@@ -58,17 +58,24 @@ export default function Register() {
                         placeholder='Nome da ONG'
                         value={name}
                         onChange={e => setName(e.target.value)}
+                        required
                     />
                     <input
                         type='email'
                         placeholder='E-mail'
                         value={email}
                         onChange={e => setEmail(e.target.value)}
+                        required
                     />
                     <input
                         placeholder='WhatsApp'
                         value={whatsapp}
                         onChange={e => setWhatsapp(e.target.value)}
+                        required
+                        min={10000000000}
+                        max={9999999999999}
+                        type='number'
+                        formatErrorTxt='Insira o número de telefone completo e com DDD'
                     />
 
                     <div className="input-group">
@@ -76,12 +83,15 @@ export default function Register() {
                             placeholder='Cidade'
                             value={city}
                             onChange={e => setCity(e.target.value)}
+                            required
                         />
                         <input
                             placeholder='UF'
                             style={{ width: 80 }}
                             value={uf}
                             onChange={e => setUf(e.target.value)}
+                            required
+                            maxLength={2}
                         />
                     </div>
 

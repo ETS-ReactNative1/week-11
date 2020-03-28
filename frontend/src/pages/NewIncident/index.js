@@ -58,16 +58,22 @@ export default function NewIncidents() {
                         placeholder='Título do caso'
                         value={title}
                         onChange={e => setTitle(e.target.value)}
+                        required
+                        minLength={9}
                     />
                     <textarea 
                         placeholder='Descrição'
                         value={description}
                         onChange={e => setDescription(e.target.value)}
+                        required
+                        minLength={60}
                     />
                     <input 
                         placeholder='Valor em reais'
                         value={value}
                         onChange={e => setValue(e.target.value)}
+                        required
+                        type='number'
                     />
 
                     <button className="button" type='submit'>Cadastrar</button>

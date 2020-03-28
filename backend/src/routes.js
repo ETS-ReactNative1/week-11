@@ -10,6 +10,7 @@ const routes = express.Router();
 
 routes.get('/ngos', NGOController.index);
 
+// Create NGO
 routes.post('/ngos', celebrate({
     [Segments.BODY]: Joi.object().keys({
         name: Joi.string().required(),
@@ -20,6 +21,7 @@ routes.post('/ngos', celebrate({
     })
 }), NGOController.create);
 
+// Create Incident
 routes.post('/incidents', celebrate({
     [Segments.HEADERS]: Joi.object({
         authorization: Joi.string().required(),
@@ -32,24 +34,28 @@ routes.post('/incidents', celebrate({
     }),
 }), IncidentController.create);
 
+// List Incidents
 routes.get('/incidents', celebrate({
     [Segments.QUERY]: Joi.object().keys({
         page: Joi.number(),
     })
 }), IncidentController.index);
 
+// Delete Incidents
 routes.delete('/incidents/:id', celebrate({
     [Segments.PARAMS]: Joi.object().keys({
         id: Joi.number().required(),
     })
 }), IncidentController.delete);
 
+// List Incidents bt NGO
 routes.get('/profile', celebrate({
     [Segments.HEADERS]: Joi.object({
         authorization: Joi.string().required(),
     }).unknown(),
 }), ProfileController.index);
 
+// Login
 routes.post('/sessions', SessionController.create);
 
 module.exports = routes;
