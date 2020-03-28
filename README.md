@@ -1,5 +1,50 @@
-# week-11
-App developed at the 11th edition of the OmniStack Week event by Rocketseat.
+<h1 align="center">
+    <img alt="Be The Hero" title="Be the Hero Logo" src="frontend/src/assets/logo.svg" width="200px" />
+</h1>
+
+<h4 align="center">
+  🚀 Semana OmniStack 11.0    |    11th OmniStack Week 🚀
+</h4>
+<p align="center">
+  <img alt="GitHub language count" src="https://img.shields.io/github/languages/count/Alcsaw/week-11">
+
+  <img alt="Repository size" src="https://img.shields.io/github/repo-size/Alcsaw/week-11">
+  
+  <a href="https://github.com/Alcsaw/week-11/commits/master">
+    <img alt="GitHub last commit" src="https://img.shields.io/github/last-commit/Alcsaw/week-11">
+  </a>
+
+  <a href="https://github.com/Alcsaw/week-11/issues">
+    <img alt="Repository issues" src="https://img.shields.io/github/issues/Alcsaw/week-11">
+  </a>
+
+  <a href="https://github.com/Alcsaw/week-11/blob/master/LICENSE">
+    <img alt="License" src="https://img.shields.io/badge/license-GNU3-brightgreen">
+  </a>
+  
+</p>
+
+<p align="center">
+  <a href="#rocket-technologies">Technologies</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="#the-omnistack">The OmniStack</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="#be-the-hero">Project</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="#-layout">Layout</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="#-contributing">Contributing</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="#memo-licença">Licença</a>
+</p>
+
+<br>
+
+## :rocket: Technologies
+
+This project was developed using the following technologies:
+
+- [Node.js](https://nodejs.org/en/)
+- [Joi](https://hapi.dev/module/joi/)
+- [React](https://reactjs.org)
+- [Jest](https://jestjs.io/)
+- [React Native](https://facebook.github.io/react-native/)
+- [Expo](https://expo.io/)
 
 ![Login page](/readme_images/BeTheHero-LoginPage.png)
 
@@ -33,3 +78,28 @@ Mobile app dashboard       |  Incident details page
 :-------------------------:|:-------------------------:
 ![Mobile app's dashboard](/readme_images/BeTheHero-AppDashboard.jpg)  |  ![Incident details page](/readme_images/BeTheHero-IncidentDetails.jpg)
 
+## 🔖 Layout
+
+The app design was made by Rocketseat using [Figma](https://figma.com).
+
+You can se the project mockup in [this link](https://www.figma.com/file/2C2yvw7jsCOGmaNUDftX9n/Be-The-Hero-OmniStack-11?node-id=0%3A1).
+
+
+## 🤔 Contributing
+
+ 1. **Fork** the repo on GitHub
+ 2. **Clone** the project to your own machine
+ 3. **Commit** changes to your own branch
+ 4. **Push** your work back up to your fork
+ 5. Submit a **Pull request** so that I can review your changes (see [This page](https://help.github.com/pt/github/collaborating-with-issues-and-pull-requests/creating-a-pull-request) for details)
+
+NOTE: Be sure to merge the latest from "upstream" before making a pull request!
+
+## :memo: Licence
+
+This project is provided freely as open source software, under the GNU General Public
+License. Check out the [LICENSE](LICENSE.md) for details.
+
+---
+
+Made with ♥ by [me](https://www.linkedin.com/in/alcsaw/) with the support of [Rocketseat](rocketseat.com.br)
