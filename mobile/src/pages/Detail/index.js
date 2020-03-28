@@ -58,6 +58,9 @@ export default function Detail() {
                         currency: 'BRL'
                     }).format(incident.value)}
                 </Text>
+
+                <Text style={styles.incidentProperty}>DESCRIÇÃO:</Text>
+                <Text style={styles.incidentValue}>{incident.description}</Text>
             </View>
 
             <View style={styles.contactBox}>
