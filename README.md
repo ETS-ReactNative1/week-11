@@ -29,8 +29,9 @@
   <a href="#the-omnistack">The OmniStack</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
   <a href="#be-the-hero">Project</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
   <a href="#-layout">Layout</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="#-installation-running-locally">Installation</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
   <a href="#-contributing">Contributing</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
-  <a href="#memo-licença">Licença</a>
+  <a href="#memo-licence">Licence</a>
 </p>
 
 <br>
@@ -83,6 +84,30 @@ Mobile app dashboard       |  Incident details page
 The app design was made by Rocketseat using [Figma](https://figma.com).
 
 You can se the project mockup in [this link](https://www.figma.com/file/2C2yvw7jsCOGmaNUDftX9n/Be-The-Hero-OmniStack-11?node-id=0%3A1).
+
+
+## ⚙️ Installation - Running locally
+
+1. Clone the repo;
+2. Start the back end:
+    ```bash
+    cd backend
+    yarn install
+    yarn knex migrate:latest
+    yarn start
+    ```
+3. Start the front end:
+    ```bash
+    cd frontend
+    yarn install
+    yarn start
+    ```
+4. Start the mobile app:
+    ```bash
+    cd mobile
+    yarn install
+    expo start
+    ```
 
 
 ## 🤔 Contributing
